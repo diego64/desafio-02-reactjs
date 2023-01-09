@@ -1,78 +1,31 @@
-## PORTUGUÊS
-# Coffee Delivery
-* [GIF](#GIF)
-* [FEITO COM](#FEITO-COM)
-* [FUNCIONALIDADES](#FUNCIONALIDADES-/-FEATURES)
-* [LINK PARA TESTE DO PROJETO](#LINK-PARA-TESTE-DO-PROJETO-/-LINK-TO-TEST-THE-PROJECT)
-
-## ENGLISH
-# Coffee Delivery
-* [GIF](#GIF)
-* [MADE WITH](#MADE-WITH)
-* [FEATURES](#FEATURES)
-* [LINK TO TEST THE PROJECT](#LINK-PARA-TESTE-DO-PROJETO-/-LINK-TO-TEST-THE-PROJECT)
-
+## Coffee Delivery
 
 # GIF
 <img src="src/assets/gif/CoffeGIF.gif"/>
 
+### Objetivo
 
-### FEITO COM
-<ul>
-<li>React</li>
-<li>Typescript</li>
-<li>Javascript</li>
-<li>Styled Components</li>
-<li>HTML5</li>
-<li>CSS3</li>
-</ul>
-<br>
-<br>
+Desenvolver uma aplicação para gerenciar um carrinho de compras de uma cafeteria fictícia...
 
+### Stack utilizada
 
-### FUNCIONALIDADES
-<ul>
-<li>Listagem de produtos.</li>
-<li>Adicionar produtos ao carrinho.</li>
-<li>Salvar estado do carrinho no LocalStorage</li>
-<li>Alterar quantidade de produtos do carrinho.</li>
-<li>Remover produtos do carrinho.</li>
-<li>Formulário para preencher endereço.</li>
-<li>Selecionar metodo de pagamento com efeito visual ao clicar.</li>
-<li>Validar se o formulário foi preenchido corretamente.</li>
-<li>Enviar para a página de sucesso.</li>
-</ul>
-<br>
-<br>
+**Front-end:** React.JS, Typescript e Styled Components
 
-## ENGLISH
+### Funcionalidades
 
-### MADE WITH
-<ul>
-<li>React</li>
-<li>Typescript</li>
-<li>Javascript</li>
-<li>Styled Components</li>
-<li>HTML5</li>
-<li>CSS3</li>
-</ul>
-<br>
-<br>
+- Listagem de produtos (cafés) disponíveis para compra
+- Adicionar uma quantidade específicas de itens no carrinho
+- Aumentar ou remover a quantidade de itens no carrinho
+- Formulário para o usuário preencher o seu endereço
+- TExibir o total de itens no carrinho no Header
+- Exibir o valor total da soma de itens no carrinho multiplicados pelo valor
 
-### FEATURES
-<ul>
-<li>Product Listing.</li>
-<li>Add products to cart.</li>
-<li>Save cart state to LocalStorage</li>
-<li>Change quantity of products in cart.</li>
-<li>Remove products from cart.</li>
-<li>Form to fill in address.</li>
-<li>Select payment method with visual effect on click.</li>
-<li>Validate that the form was filled out correctly.</li>
-<li>Submit to success page.</li>
-</ul>
-<br>
-<br>
+### Conceitos aplicados
 
-### LINK TO TEST THE PROJECT
-<a href="https://stellar-meringue-14a04f.netlify.app/">Coffee Delivery</a>
+- Estados
+- ContextAPI
+- LocalStorage
+- Imutabilidade do estado
+- Listas e chaves no ReactJS
+- Propriedades
+- Componentização
